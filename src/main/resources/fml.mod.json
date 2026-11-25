@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "environment": "client",
+  "name": "${name}",
+  "description": "This is an expansion of the ETF mod, it adds support for OptiFine format Custom Entity Model (CEM) resource packs.\nWhile still allowing you to disable this to use a different model mod :)",
+  "authors": ["Traben"],
+  "contact": {"sources": "https://github.com/Traben-0/Entity_Model_Features"},
+  "license": "LGPL-3.0-or-later",
+  "entrypoints": {"main": ["traben.entity_model_features.EMFInit"]},
+  "mixins": ["entity_model_features.mixins.json"],
+  "depends": {
+    "fishmodloader": ">=3.4.2",
+    "rusted_iron_core": ">=1.6.0",
+    "entity_texture_features": ">=7.1.0"
+  }
+}

@@ -1,0 +1,141 @@
+[20:37:42] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/A:/gradle_cache/.gradle/caches/modules-2/files-2.1/com.github.MinecraftIsTooEasy/FishModLoader/3.4.2/1c56f06d666d0088048350c8677b761ba7c59f55/FishModLoader-3.4.2.jar Service=Knot/FishModLoader Env=CLIENT
+[20:37:42] [main/DEBUG]: Error cleaning class output directory: .mixin.out
+[20:37:42] [main/DEBUG]: Initialising Mixin Platform Manager
+[20:37:42] [main/DEBUG]: Adding mixin platform agents for container ContainerHandleURI(file:///A:/gradle_cache/.gradle/caches/modules-2/files-2.1/com.github.MinecraftIsTooEasy/FishModLoader/3.4.2/1c56f06d666d0088048350c8677b761ba7c59f55/FishModLoader-3.4.2.jar)
+[20:37:42] [main/DEBUG]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///A:/gradle_cache/.gradle/caches/modules-2/files-2.1/com.github.MinecraftIsTooEasy/FishModLoader/3.4.2/1c56f06d666d0088048350c8677b761ba7c59f55/FishModLoader-3.4.2.jar)
+[20:37:42] [main/DEBUG]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///A:/gradle_cache/.gradle/caches/modules-2/files-2.1/com.github.MinecraftIsTooEasy/FishModLoader/3.4.2/1c56f06d666d0088048350c8677b761ba7c59f55/FishModLoader-3.4.2.jar)
+[20:37:42] [main/DEBUG]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///A:/gradle_cache/.gradle/caches/modules-2/files-2.1/com.github.MinecraftIsTooEasy/FishModLoader/3.4.2/1c56f06d666d0088048350c8677b761ba7c59f55/FishModLoader-3.4.2.jar)
+[20:37:42] [main/DEBUG]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///A:/gradle_cache/.gradle/caches/modules-2/files-2.1/com.github.MinecraftIsTooEasy/FishModLoader/3.4.2/1c56f06d666d0088048350c8677b761ba7c59f55/FishModLoader-3.4.2.jar)
+[20:37:42] [main/DEBUG]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///A:/gradle_cache/.gradle/caches/modules-2/files-2.1/com.github.MinecraftIsTooEasy/FishModLoader/3.4.2/1c56f06d666d0088048350c8677b761ba7c59f55/FishModLoader-3.4.2.jar)]
+[20:37:42] [main/DEBUG]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///A:/gradle_cache/.gradle/caches/modules-2/files-2.1/com.github.MinecraftIsTooEasy/FishModLoader/3.4.2/1c56f06d666d0088048350c8677b761ba7c59f55/FishModLoader-3.4.2.jar)]
+[20:37:42] [main/DEBUG]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5) is taking over from null
+[20:37:42] [main/DEBUG]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[20:37:42] [main/DEBUG]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[20:37:42] [main/DEBUG]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[20:37:42] [main/DEBUG]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[20:37:42] [main/DEBUG]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[20:37:42] [main/DEBUG]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[20:37:43] [main/DEBUG]: Compatibility level JAVA_17 specified by rustedironcore.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[20:37:43] [main/INFO]: Compatibility level set to JAVA_17
+[20:37:43] [main/DEBUG]: Preparing mixins for MixinEnvironment[DEFAULT]
+[20:37:43] [main/DEBUG]: Selecting config rustedironcore.mixins.json
+[20:37:43] [main/DEBUG]: Selecting config glacier.mixins.json
+[20:37:43] [main/DEBUG]: Selecting config entity_texture_features.mixins.json
+[20:37:43] [main/DEBUG]: Selecting config entity_model_features.mixins.json
+[20:37:43] [main/DEBUG]: Preparing rustedironcore.mixins.json (171)
+[20:37:43] [main/DEBUG]: Preparing glacier.mixins.json (5)
+[20:37:43] [main/DEBUG]: Preparing entity_texture_features.mixins.json (23)
+[20:37:43] [main/DEBUG]: Preparing entity_model_features.mixins.json (35)
+[20:37:43] [main/DEBUG]: Prepared 227 mixins in 0.330 sec (1.5ms avg) (0ms load, 0ms transform, 0ms plugin)
+[20:37:43] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[20:37:43] [main/DEBUG]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[20:37:43] [main/DEBUG]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[20:37:43] [main/DEBUG]: Mixing client.AbstractResourcePackMixin from rustedironcore.mixins.json into net.minecraft.AbstractResourcePack
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$openAliasedResource$1(Ljava/lang/String;Ljava/lang/String;)Z to md78aaf4$lambda$openAliasedResource$1$0 in rustedironcore.mixins.json:client.AbstractResourcePackMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$findAliasedResource$0(Ljava/lang/String;Ljava/lang/String;)Z to md78aaf4$lambda$findAliasedResource$0$1 in rustedironcore.mixins.json:client.AbstractResourcePackMixin
+[20:37:43] [main/DEBUG]: Mixing client.PackMetadataSectionSerializerMixin from rustedironcore.mixins.json into net.minecraft.PackMetadataSectionSerializer
+[20:37:43] [main/DEBUG]: Mixing GuiOptionsMixin from entity_texture_features.mixins.json into net.minecraft.GuiOptions
+[20:37:43] [main/DEBUG]: Mixing entity.EntityMixin from rustedironcore.mixins.json into net.minecraft.Entity
+[20:37:43] [main/DEBUG]: Mixing EntityMixin from entity_texture_features.mixins.json into net.minecraft.Entity
+[20:37:43] [main/DEBUG]: Mixing EntityMixin from entity_model_features.mixins.json into net.minecraft.Entity
+[20:37:43] [main/DEBUG]: Mixing block.entity.ITileEntityMixin from rustedironcore.mixins.json into net.minecraft.TileEntity
+[20:37:43] [main/DEBUG]: Renaming @Invoker method invokeAddMapping(Ljava/lang/Class;Ljava/lang/String;)V to invokeAddMapping_$md$78aaf4$0 in rustedironcore.mixins.json:block.entity.ITileEntityMixin
+[20:37:43] [main/DEBUG]: Renaming @Invoker method invokeGetClassToNameMap()Ljava/util/Map; to invokeGetClassToNameMap_$md$78aaf4$1 in rustedironcore.mixins.json:block.entity.ITileEntityMixin
+[20:37:43] [main/DEBUG]: Mixing block.entity.TileEntityMixin from rustedironcore.mixins.json into net.minecraft.TileEntity
+[20:37:43] [main/DEBUG]: Mixing TileEntityMixin from entity_texture_features.mixins.json into net.minecraft.TileEntity
+[20:37:43] [main/DEBUG]: Mixing TileEntityMixin from entity_model_features.mixins.json into net.minecraft.TileEntity
+[20:37:43] [main/DEBUG]: Mixing client.SimpleReloadableResourceManagerMixin from rustedironcore.mixins.json into net.minecraft.SimpleReloadableResourceManager
+[20:37:43] [main/DEBUG]: Mixing SimpleReloadableResourceManagerMixin from entity_texture_features.mixins.json into net.minecraft.SimpleReloadableResourceManager
+[20:37:43] [main/DEBUG]: Mixing GuiInventoryMixin from entity_texture_features.mixins.json into net.minecraft.GuiInventory
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$renderGuiEntity$0(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/RenderManager;Lnet/minecraft/Entity;DDDFF)V to md78aaf4$lambda$renderGuiEntity$0$0 in entity_texture_features.mixins.json:GuiInventoryMixin
+[20:37:43] [main/DEBUG]: Mixing TextureManagerMixin from entity_texture_features.mixins.json into net.minecraft.TextureManager
+[20:37:43] [main/DEBUG]: Mixing client.render.RenderPlayerMixin from rustedironcore.mixins.json into net.minecraft.RenderPlayer
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$func_130009_a$7(Lnet/minecraft/ModelBiped;)V to md78aaf4$lambda$func_130009_a$7$0 in rustedironcore.mixins.json:client.render.RenderPlayerMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$func_130009_a$6(Lnet/minecraft/ModelBiped;)V to md78aaf4$lambda$func_130009_a$6$1 in rustedironcore.mixins.json:client.render.RenderPlayerMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$func_130009_a$5(Lnet/minecraft/ModelBiped;)V to md78aaf4$lambda$func_130009_a$5$2 in rustedironcore.mixins.json:client.render.RenderPlayerMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$func_130009_a$4(Lnet/minecraft/AbstractClientPlayer;Lnet/minecraft/ModelBiped;)V to md78aaf4$lambda$func_130009_a$4$3 in rustedironcore.mixins.json:client.render.RenderPlayerMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$func_130009_a$3(Lnet/minecraft/ModelBiped;)V to md78aaf4$lambda$func_130009_a$3$4 in rustedironcore.mixins.json:client.render.RenderPlayerMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$func_130009_a$2(Lnet/minecraft/ModelBiped;)V to md78aaf4$lambda$func_130009_a$2$5 in rustedironcore.mixins.json:client.render.RenderPlayerMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$func_130009_a$1(Lnet/minecraft/ModelBiped;)V to md78aaf4$lambda$func_130009_a$1$6 in rustedironcore.mixins.json:client.render.RenderPlayerMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$setArmorModel$0(Lnet/minecraft/ItemArmor;I)Lnet/minecraft/ResourceLocation; to md78aaf4$lambda$setArmorModel$0$7 in rustedironcore.mixins.json:client.render.RenderPlayerMixin
+[20:37:43] [main/DEBUG]: Mixing RenderPlayerMixin from entity_model_features.mixins.json into net.minecraft.RenderPlayer
+[20:37:43] [main/DEBUG]: Mixing RenderPlayerMixin from entity_texture_features.mixins.json into net.minecraft.RenderPlayer
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$renderHeadSkull$2(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/TileEntitySkullRenderer;FFFIFILjava/lang/String;)V to md78aaf4$lambda$renderHeadSkull$2$8 in entity_texture_features.mixins.json:RenderPlayerMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$renderHeldItem$1(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/ItemRenderer;Lnet/minecraft/EntityLivingBase;Lnet/minecraft/ItemStack;I)V to md78aaf4$lambda$renderHeldItem$1$9 in entity_texture_features.mixins.json:RenderPlayerMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$renderHeadItem$0(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/ItemRenderer;Lnet/minecraft/EntityLivingBase;Lnet/minecraft/ItemStack;I)V to md78aaf4$lambda$renderHeadItem$0$a in entity_texture_features.mixins.json:RenderPlayerMixin
+[20:37:43] [main/DEBUG]: Mixing client.render.RenderBipedMixin from rustedironcore.mixins.json into net.minecraft.RenderBiped
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$func_82420_a$5(Lnet/minecraft/EntityLiving;Lnet/minecraft/ModelBiped;)V to md78aaf4$lambda$func_82420_a$5$0 in rustedironcore.mixins.json:client.render.RenderBipedMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$func_82420_a$4(Lnet/minecraft/ModelBiped;)V to md78aaf4$lambda$func_82420_a$4$1 in rustedironcore.mixins.json:client.render.RenderBipedMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$doRenderLiving$3(Lnet/minecraft/ModelBiped;)V to md78aaf4$lambda$doRenderLiving$3$2 in rustedironcore.mixins.json:client.render.RenderBipedMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$doRenderLiving$2(Lnet/minecraft/ModelBiped;)V to md78aaf4$lambda$doRenderLiving$2$3 in rustedironcore.mixins.json:client.render.RenderBipedMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$doRenderLiving$1(Lnet/minecraft/ModelBiped;)V to md78aaf4$lambda$doRenderLiving$1$4 in rustedironcore.mixins.json:client.render.RenderBipedMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$func_130006_a$0(Lnet/minecraft/ItemArmor;I)Lnet/minecraft/ResourceLocation; to md78aaf4$lambda$func_130006_a$0$5 in rustedironcore.mixins.json:client.render.RenderBipedMixin
+[20:37:43] [main/DEBUG]: Mixing RenderBipedMixin from entity_texture_features.mixins.json into net.minecraft.RenderBiped
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$renderHeadSkull$2(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/TileEntitySkullRenderer;FFFIFILjava/lang/String;)V to md78aaf4$lambda$renderHeadSkull$2$6 in entity_texture_features.mixins.json:RenderBipedMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$renderHeldItem$1(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/ItemRenderer;Lnet/minecraft/EntityLivingBase;Lnet/minecraft/ItemStack;I)V to md78aaf4$lambda$renderHeldItem$1$7 in entity_texture_features.mixins.json:RenderBipedMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$renderHeadItem$0(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/ItemRenderer;Lnet/minecraft/EntityLivingBase;Lnet/minecraft/ItemStack;I)V to md78aaf4$lambda$renderHeadItem$0$8 in entity_texture_features.mixins.json:RenderBipedMixin
+[20:37:43] [main/DEBUG]: Mixing RenderBipedMixin from entity_model_features.mixins.json into net.minecraft.RenderBiped
+[20:37:43] [main/DEBUG]: Mixing RenderWitchMixin from entity_texture_features.mixins.json into net.minecraft.RenderWitch
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$renderHeldItem$0(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/ItemRenderer;Lnet/minecraft/EntityLivingBase;Lnet/minecraft/ItemStack;I)V to md78aaf4$lambda$renderHeldItem$0$0 in entity_texture_features.mixins.json:RenderWitchMixin
+[20:37:43] [main/DEBUG]: Mixing RenderWitchMixin from entity_model_features.mixins.json into net.minecraft.RenderWitch
+[20:37:43] [main/DEBUG]: Mixing RenderSnowManMixin from entity_texture_features.mixins.json into net.minecraft.RenderSnowMan
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$renderHeadItem$0(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/ItemRenderer;Lnet/minecraft/EntityLivingBase;Lnet/minecraft/ItemStack;I)V to md78aaf4$lambda$renderHeadItem$0$0 in entity_texture_features.mixins.json:RenderSnowManMixin
+[20:37:43] [main/DEBUG]: Mixing RenderItemFrameMixin from entity_texture_features.mixins.json into net.minecraft.RenderItemFrame
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$renderFramedItem$0(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/RenderManager;Lnet/minecraft/Entity;DDDFF)V to md78aaf4$lambda$renderFramedItem$0$0 in entity_texture_features.mixins.json:RenderItemFrameMixin
+[20:37:43] [main/DEBUG]: Mixing client.render.ItemRendererMixin from rustedironcore.mixins.json into net.minecraft.ItemRenderer
+[20:37:43] [main/DEBUG]: Mixing ItemRendererMixin from entity_texture_features.mixins.json into net.minecraft.ItemRenderer
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$renderModernArm$1(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/RenderPlayer;Lnet/minecraft/EntityPlayer;)V to md78aaf4$lambda$renderModernArm$1$0 in entity_texture_features.mixins.json:ItemRendererMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$renderHeldItem$0(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/ItemRenderer;Lnet/minecraft/EntityLivingBase;Lnet/minecraft/ItemStack;I)V to md78aaf4$lambda$renderHeldItem$0$1 in entity_texture_features.mixins.json:ItemRendererMixin
+[20:37:43] [main/DEBUG]: Mixing ItemRendererMixin from entity_model_features.mixins.json into net.minecraft.ItemRenderer
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$renderFirstPersonSword$0(Lnet/minecraft/EntityLivingBase;Lnet/minecraft/ItemStack;Lnet/minecraft/ItemRenderer;)V to md78aaf4$lambda$renderFirstPersonSword$0$2 in entity_model_features.mixins.json:ItemRendererMixin
+[20:37:43] [main/DEBUG]: Mixing TessellatorMixin from entity_texture_features.mixins.json into net.minecraft.Tessellator
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$drawTextureFeatures$0(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;III)V to md78aaf4$lambda$drawTextureFeatures$0$0 in entity_texture_features.mixins.json:TessellatorMixin
+[20:37:43] [main/DEBUG]: Mixing ImageBufferDownloadMixin from entity_texture_features.mixins.json into net.minecraft.ImageBufferDownload
+[20:37:43] [main/DEBUG]: Mixing ThreadDownloadImageDataMixin from entity_texture_features.mixins.json into net.minecraft.ThreadDownloadImageData
+[20:37:43] [main/DEBUG]: Mixing ModelRendererMixin from entity_texture_features.mixins.json into net.minecraft.ModelRenderer
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$renderEmissiveGeometry$0(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;I)V to md78aaf4$lambda$renderEmissiveGeometry$0$0 in entity_texture_features.mixins.json:ModelRendererMixin
+[20:37:43] [main/DEBUG]: Mixing ModelRendererMixin from entity_model_features.mixins.json into net.minecraft.ModelRenderer
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$drawDebugGeometry$2(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;I)V to md78aaf4$lambda$drawDebugGeometry$2$1 in entity_model_features.mixins.json:ModelRendererMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$emf$drawBoxes$1()V to md78aaf4$lambda$emf$drawBoxes$1$2 in entity_model_features.mixins.json:ModelRendererMixin
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$emf$drawBoxes$0()V to md78aaf4$lambda$emf$drawBoxes$0$3 in entity_model_features.mixins.json:ModelRendererMixin
+[20:37:43] [main/DEBUG]: Mixing RendererLivingEntityMixin from entity_texture_features.mixins.json into net.minecraft.RendererLivingEntity
+[20:37:43] [main/DEBUG]: Mixing RendererLivingEntityMixin from entity_model_features.mixins.json into net.minecraft.RendererLivingEntity
+[20:37:43] [main/DEBUG]: Mixing TileEntityRendererMixin from entity_texture_features.mixins.json into net.minecraft.TileEntityRenderer
+[20:37:43] [main/DEBUG]: Mixing TileEntitySpecialRendererMixin from entity_texture_features.mixins.json into net.minecraft.TileEntitySpecialRenderer
+[20:37:43] [main/DEBUG]: Mixing client.MinecraftMixin from rustedironcore.mixins.json into net.minecraft.Minecraft
+[20:37:43] [main/DEBUG]: Mixing client.MinecraftClientMixin from glacier.mixins.json into net.minecraft.Minecraft
+[20:37:43] [main/DEBUG]: Mixing MinecraftMixin from entity_texture_features.mixins.json into net.minecraft.Minecraft
+[20:37:43] [main/DEBUG]: Mixing MinecraftMixin from entity_model_features.mixins.json into net.minecraft.Minecraft
+[20:37:43] [main/DEBUG]: Mixing MobSpawnerBaseLogicMixin from entity_texture_features.mixins.json into net.minecraft.MobSpawnerBaseLogic
+[20:37:43] [main/DEBUG]: Mixing RenderManagerMixin from entity_texture_features.mixins.json into net.minecraft.RenderManager
+[20:37:43] [main/DEBUG]: Renaming synthetic method lambda$captureRenderedEntity$0(Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/Render;Lnet/minecraft/Entity;DDDFF)V to md78aaf4$lambda$captureRenderedEntity$0$0 in entity_texture_features.mixins.json:RenderManagerMixin
+[20:37:43] [main/DEBUG]: Mixing client.render.RenderMixin from rustedironcore.mixins.json into net.minecraft.Render
+[20:37:43] [main/DEBUG]: Mixing RenderMixin from entity_texture_features.mixins.json into net.minecraft.Render
+[20:37:43] [main/DEBUG]: Mixing RenderMixin from entity_model_features.mixins.json into net.minecraft.Render
+[20:37:43] [main/DEBUG]: Mixing EntityPigZombieMixin from entity_model_features.mixins.json into net.minecraft.EntityPigZombie
+[20:37:43] [main/DEBUG]: Mixing TileEntityChestRendererMixin from entity_model_features.mixins.json into net.minecraft.TileEntityChestRenderer
+[20:37:43] [main/DEBUG]: Mixing TileEntityEnderChestRendererMixin from entity_model_features.mixins.json into net.minecraft.TileEntityEnderChestRenderer
+[20:37:43] [main/DEBUG]: Mixing TileEntitySignRendererMixin from entity_model_features.mixins.json into net.minecraft.TileEntitySignRenderer
+[20:37:43] [main/DEBUG]: Mixing TileEntitySkullRendererMixin from entity_model_features.mixins.json into net.minecraft.TileEntitySkullRenderer
+[20:37:43] [main/DEBUG]: Mixing RenderEnchantmentTableMixin from entity_model_features.mixins.json into net.minecraft.RenderEnchantmentTable
+[20:37:43] [main/DEBUG]: Mixing client.render.EntityRendererMixin from rustedironcore.mixins.json into net.minecraft.EntityRenderer
+[20:37:43] [main/DEBUG]: Mixing EntityRendererMixin from entity_model_features.mixins.json into net.minecraft.EntityRenderer
+[20:37:43] [main/DEBUG]: Mixing ModelBipedMixin from entity_model_features.mixins.json into net.minecraft.ModelBiped
+[20:37:43] [main/DEBUG]: Mixing ModelQuadrupedMixin from entity_model_features.mixins.json into net.minecraft.ModelQuadruped
+[20:37:43] [main/DEBUG]: Mixing ModelChickenMixin from entity_model_features.mixins.json into net.minecraft.ModelChicken
+[20:37:43] [main/DEBUG]: Mixing ModelOcelotMixin from entity_model_features.mixins.json into net.minecraft.ModelOcelot
+[20:37:43] [main/DEBUG]: Mixing ModelWolfMixin from entity_model_features.mixins.json into net.minecraft.ModelWolf
+[20:37:43] [main/DEBUG]: Mixing ModelHorseMixin from entity_model_features.mixins.json into net.minecraft.ModelHorse
+[20:37:43] [main/DEBUG]: Mixing ModelEnderCrystalMixin from entity_model_features.mixins.json into net.minecraft.ModelEnderCrystal
+[20:37:43] [main/DEBUG]: Mixing RenderLivingMixin from entity_model_features.mixins.json into net.minecraft.RenderLiving
+[20:37:43] [main/DEBUG]: Mixing RenderHorseMixin from entity_model_features.mixins.json into net.minecraft.RenderHorse
+[20:37:43] [main/DEBUG]: Mixing RenderDragonMixin from entity_model_features.mixins.json into net.minecraft.RenderDragon
+[20:37:43] [main/DEBUG]: Mixing RenderBoatMixin from entity_model_features.mixins.json into net.minecraft.RenderBoat
+[20:37:43] [main/DEBUG]: Mixing RenderMinecartMixin from entity_model_features.mixins.json into net.minecraft.RenderMinecart
+[20:37:43] [main/DEBUG]: Mixing client.render.RenderArrowMixin from rustedironcore.mixins.json into net.minecraft.RenderArrow
+[20:37:43] [main/DEBUG]: Mixing RenderArrowMixin from entity_model_features.mixins.json into net.minecraft.RenderArrow
+[20:37:43] [main/DEBUG]: Mixing RenderEnderCrystalMixin from entity_model_features.mixins.json into net.minecraft.RenderEnderCrystal
+[20:37:43] [main/DEBUG]: Mixing RenderLeashKnotMixin from entity_model_features.mixins.json into net.minecraft.RenderLeashKnot
+[20:37:43] [main/DEBUG]: Mixing RenderWitherSkullMixin from entity_model_features.mixins.json into net.minecraft.RenderWitherSkull
+[20:37:43] [main/DEBUG]: Mixing RenderMooshroomMixin from entity_model_features.mixins.json into net.minecraft.RenderMooshroom
+[20:37:43] [main/DEBUG]: Mixing RenderEndermanMixin from entity_model_features.mixins.json into net.minecraft.RenderEnderman

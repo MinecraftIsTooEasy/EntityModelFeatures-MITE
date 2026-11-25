@@ -1,0 +1,23 @@
+{
+  "config_version": 1,
+  "StatementOnLogin": {
+    "_comment": "第一次进入世界时显示锈铁核心声明",
+    "value": true
+  },
+  "WorldGenDelegate": {
+    "_comment": "世界生成代理",
+    "value": true
+  },
+  "UseCustomDimension": {
+    "_comment": "使用自定义维度",
+    "value": false
+  },
+  "ApplyPacketPatches": {
+    "_comment": "应用网络包补丁",
+    "value": true
+  },
+  "PreLoadGameObjects": {
+    "_comment": "提前加载游戏对象",
+    "value": true
+  }
+}
